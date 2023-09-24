@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ee2662;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -46,12 +46,12 @@ body {
 
 /* Header Styles */
 h1 {
-  color: blue;
+  color: #ee2662;
 }
 
 /* Navigation Bar Styles */
 .nav-bar {
-  background-color: blue;
+  background-color: #ee2662;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -59,7 +59,7 @@ h1 {
 
 .nav-bar button {
   background-color: white;
-  color: blue;
+  color: #ee2662;
   border: none;
   margin: 5px;
   padding: 10px 20px;
@@ -82,7 +82,7 @@ h1 {
 }
 
 .form h2 {
-  color: blue;
+  color: #ee2662;
 }
 
 .form input[type="text"],
@@ -112,7 +112,7 @@ h1 {
 }
 
 .values h2 {
-  color: blue;
+  color: #ee2662;
 }
 
 /* Buttons Styles */
@@ -123,7 +123,7 @@ h1 {
 }
 
 .buttons button {
-  background-color: blue;
+  background-color: #ee2662;
   color: white;
   border: none;
   padding: 10px 20px;

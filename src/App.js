@@ -26,9 +26,9 @@
 // function App() {
 //   const [stage, setStage] = useState(1);
 //   const [formData, setFormData] = useState({
-//     stage1: { field1: "", field2: "", field3: "" },
-//     stage2: { field4: "", field5: "", field6: "" },
-//     stage3: { field7: "", field8: "", field9: "" },
+//     stage1: { RequistionTitle: "", numberOfOpenings: "", urgency: "" },
+//     stage2: { jobTitle: "", jobDetails: "", jobLocation: "" },
+//     stage3: { InterviewMode: "", InterviewDuration: "", interviewLanguage: "" },
 //   });
 
 //   const handleNext = () => {
@@ -63,23 +63,23 @@
 //           <h2>Stage 1</h2>
 //           <input
 //             type="text"
-//             name="field1"
+//             name="RequistionTitle"
 //             placeholder="Field 1"
-//             value={formData.stage1.field1}
+//             value={formData.stage1.RequistionTitle}
 //             onChange={(e) => handleInputChange(e, "stage1")}
 //           />
 //           <input
 //             type="text"
-//             name="field2"
+//             name="numberOfOpenings"
 //             placeholder="Field 2"
-//             value={formData.stage1.field2}
+//             value={formData.stage1.numberOfOpenings}
 //             onChange={(e) => handleInputChange(e, "stage1")}
 //           />
 //           <input
 //             type="text"
-//             name="field3"
+//             name="urgency"
 //             placeholder="Field 3"
-//             value={formData.stage1.field3}
+//             value={formData.stage1.urgency}
 //             onChange={(e) => handleInputChange(e, "stage1")}
 //           />
 //           <button onClick={handleNext}>Next</button>
@@ -91,23 +91,23 @@
 //           <h2>Stage 2</h2>
 //           <input
 //             type="text"
-//             name="field4"
+//             name="jobTitle"
 //             placeholder="Field 4"
-//             value={formData.stage2.field4}
+//             value={formData.stage2.jobTitle}
 //             onChange={(e) => handleInputChange(e, "stage2")}
 //           />
 //           <input
 //             type="text"
-//             name="field5"
+//             name="jobDetails"
 //             placeholder="Field 5"
-//             value={formData.stage2.field5}
+//             value={formData.stage2.jobDetails}
 //             onChange={(e) => handleInputChange(e, "stage2")}
 //           />
 //           <input
 //             type="text"
-//             name="field6"
+//             name="jobLocation"
 //             placeholder="Field 6"
-//             value={formData.stage2.field6}
+//             value={formData.stage2.jobLocation}
 //             onChange={(e) => handleInputChange(e, "stage2")}
 //           />
 //           <button onClick={handlePrevious}>Previous</button>
@@ -120,23 +120,23 @@
 //           <h2>Stage 3</h2>
 //           <input
 //             type="text"
-//             name="field7"
+//             name="InterviewMode"
 //             placeholder="Field 7"
-//             value={formData.stage3.field7}
+//             value={formData.stage3.InterviewMode}
 //             onChange={(e) => handleInputChange(e, "stage3")}
 //           />
 //           <input
 //             type="text"
-//             name="field8"
+//             name="InterviewDuration"
 //             placeholder="Field 8"
-//             value={formData.stage3.field8}
+//             value={formData.stage3.InterviewDuration}
 //             onChange={(e) => handleInputChange(e, "stage3")}
 //           />
 //           <input
 //             type="text"
-//             name="field9"
+//             name="interviewLanguage"
 //             placeholder="Field 9"
-//             value={formData.stage3.field9}
+//             value={formData.stage3.interviewLanguage}
 //             onChange={(e) => handleInputChange(e, "stage3")}
 //           />
 //           <button onClick={handlePrevious}>Previous</button>
@@ -156,9 +156,9 @@
 // function App() {
 //   const [stage, setStage] = useState(1);
 //   const [formData, setFormData] = useState({
-//     stage1: { field1: "", field2: "", field3: "" },
-//     stage2: { field4: "", field5: "", field6: "" },
-//     stage3: { field7: "", field8: "", field9: "" },
+//     stage1: { RequistionTitle: "", numberOfOpenings: "", urgency: "" },
+//     stage2: { jobTitle: "", jobDetails: "", jobLocation: "" },
+//     stage3: { InterviewMode: "", InterviewDuration: "", interviewLanguage: "" },
 //   });
 
 //   const handleNext = () => {
@@ -198,23 +198,23 @@
 //             <h2>Stage 1</h2>
 //             <input
 //               type="text"
-//               name="field1"
+//               name="RequistionTitle"
 //               placeholder="Field 1"
-//               value={formData.stage1.field1}
+//               value={formData.stage1.RequistionTitle}
 //               onChange={(e) => handleInputChange(e, "stage1")}
 //             />
 //             <input
 //               type="text"
-//               name="field2"
+//               name="numberOfOpenings"
 //               placeholder="Field 2"
-//               value={formData.stage1.field2}
+//               value={formData.stage1.numberOfOpenings}
 //               onChange={(e) => handleInputChange(e, "stage1")}
 //             />
 //             <input
 //               type="text"
-//               name="field3"
+//               name="urgency"
 //               placeholder="Field 3"
-//               value={formData.stage1.field3}
+//               value={formData.stage1.urgency}
 //               onChange={(e) => handleInputChange(e, "stage1")}
 //             />
 //           </div>
@@ -225,23 +225,23 @@
 //             <h2>Stage 2</h2>
 //             <input
 //               type="text"
-//               name="field4"
+//               name="jobTitle"
 //               placeholder="Field 4"
-//               value={formData.stage2.field4}
+//               value={formData.stage2.jobTitle}
 //               onChange={(e) => handleInputChange(e, "stage2")}
 //             />
 //             <input
 //               type="text"
-//               name="field5"
+//               name="jobDetails"
 //               placeholder="Field 5"
-//               value={formData.stage2.field5}
+//               value={formData.stage2.jobDetails}
 //               onChange={(e) => handleInputChange(e, "stage2")}
 //             />
 //             <input
 //               type="text"
-//               name="field6"
+//               name="jobLocation"
 //               placeholder="Field 6"
-//               value={formData.stage2.field6}
+//               value={formData.stage2.jobLocation}
 //               onChange={(e) => handleInputChange(e, "stage2")}
 //             />
 //           </div>
@@ -252,23 +252,23 @@
 //             <h2>Stage 3</h2>
 //             <input
 //               type="text"
-//               name="field7"
+//               name="InterviewMode"
 //               placeholder="Field 7"
-//               value={formData.stage3.field7}
+//               value={formData.stage3.InterviewMode}
 //               onChange={(e) => handleInputChange(e, "stage3")}
 //             />
 //             <input
 //               type="text"
-//               name="field8"
+//               name="InterviewDuration"
 //               placeholder="Field 8"
-//               value={formData.stage3.field8}
+//               value={formData.stage3.InterviewDuration}
 //               onChange={(e) => handleInputChange(e, "stage3")}
 //             />
 //             <input
 //               type="text"
-//               name="field9"
+//               name="interviewLanguage"
 //               placeholder="Field 9"
-//               value={formData.stage3.field9}
+//               value={formData.stage3.interviewLanguage}
 //               onChange={(e) => handleInputChange(e, "stage3")}
 //             />
 //           </div>
@@ -296,9 +296,9 @@
 // function App() {
 //   const [stage, setStage] = useState(1);
 //   const [formData, setFormData] = useState({
-//     stage1: { field1: "", field2: "", field3: "" },
-//     stage2: { field4: "", field5: "", field6: "" },
-//     stage3: { field7: "", field8: "", field9: "" },
+//     stage1: { RequistionTitle: "", numberOfOpenings: "", urgency: "" },
+//     stage2: { jobTitle: "", jobDetails: "", jobLocation: "" },
+//     stage3: { InterviewMode: "", InterviewDuration: "", interviewLanguage: "" },
 //   });
 
 //   const handleStageClick = (newStage) => {
@@ -347,23 +347,23 @@
 //             <h2>Stage 1</h2>
 //             <input
 //               type="text"
-//               name="field1"
+//               name="RequistionTitle"
 //               placeholder="Field 1"
-//               value={formData.stage1.field1}
+//               value={formData.stage1.RequistionTitle}
 //               onChange={(e) => handleInputChange(e, "stage1")}
 //             />
 //             <input
 //               type="text"
-//               name="field2"
+//               name="numberOfOpenings"
 //               placeholder="Field 2"
-//               value={formData.stage1.field2}
+//               value={formData.stage1.numberOfOpenings}
 //               onChange={(e) => handleInputChange(e, "stage1")}
 //             />
 //             <input
 //               type="text"
-//               name="field3"
+//               name="urgency"
 //               placeholder="Field 3"
-//               value={formData.stage1.field3}
+//               value={formData.stage1.urgency}
 //               onChange={(e) => handleInputChange(e, "stage1")}
 //             />
 //           </div>
@@ -374,23 +374,23 @@
 //             <h2>Stage 2</h2>
 //             <input
 //               type="text"
-//               name="field4"
+//               name="jobTitle"
 //               placeholder="Field 4"
-//               value={formData.stage2.field4}
+//               value={formData.stage2.jobTitle}
 //               onChange={(e) => handleInputChange(e, "stage2")}
 //             />
 //             <input
 //               type="text"
-//               name="field5"
+//               name="jobDetails"
 //               placeholder="Field 5"
-//               value={formData.stage2.field5}
+//               value={formData.stage2.jobDetails}
 //               onChange={(e) => handleInputChange(e, "stage2")}
 //             />
 //             <input
 //               type="text"
-//               name="field6"
+//               name="jobLocation"
 //               placeholder="Field 6"
-//               value={formData.stage2.field6}
+//               value={formData.stage2.jobLocation}
 //               onChange={(e) => handleInputChange(e, "stage2")}
 //             />
 //           </div>
@@ -401,23 +401,23 @@
 //             <h2>Stage 3</h2>
 //             <input
 //               type="text"
-//               name="field7"
+//               name="InterviewMode"
 //               placeholder="Field 7"
-//               value={formData.stage3.field7}
+//               value={formData.stage3.InterviewMode}
 //               onChange={(e) => handleInputChange(e, "stage3")}
 //             />
 //             <input
 //               type="text"
-//               name="field8"
+//               name="InterviewDuration"
 //               placeholder="Field 8"
-//               value={formData.stage3.field8}
+//               value={formData.stage3.InterviewDuration}
 //               onChange={(e) => handleInputChange(e, "stage3")}
 //             />
 //             <input
 //               type="text"
-//               name="field9"
+//               name="interviewLanguage"
 //               placeholder="Field 9"
-//               value={formData.stage3.field9}
+//               value={formData.stage3.interviewLanguage}
 //               onChange={(e) => handleInputChange(e, "stage3")}
 //             />
 //           </div>
@@ -445,9 +445,9 @@
 // function App() {
 //   const [stage, setStage] = useState(1);
 //   const [formData, setFormData] = useState({
-//     stage1: { field1: "", field2: "", field3: "" },
-//     stage2: { field4: "", field5: "", field6: "" },
-//     stage3: { field7: "", field8: "", field9: "" },
+//     stage1: { RequistionTitle: "", numberOfOpenings: "", urgency: "" },
+//     stage2: { jobTitle: "", jobDetails: "", jobLocation: "" },
+//     stage3: { InterviewMode: "", InterviewDuration: "", interviewLanguage: "" },
 //   });
 
 //   const handleStageClick = (newStage) => {
@@ -492,23 +492,23 @@
 //               <h2>Stage 1</h2>
 //               <input
 //                 type="text"
-//                 name="field1"
+//                 name="RequistionTitle"
 //                 placeholder="Field 1"
-//                 value={formData.stage1.field1}
+//                 value={formData.stage1.RequistionTitle}
 //                 onChange={(e) => handleInputChange(e, "stage1")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field2"
+//                 name="numberOfOpenings"
 //                 placeholder="Field 2"
-//                 value={formData.stage1.field2}
+//                 value={formData.stage1.numberOfOpenings}
 //                 onChange={(e) => handleInputChange(e, "stage1")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field3"
+//                 name="urgency"
 //                 placeholder="Field 3"
-//                 value={formData.stage1.field3}
+//                 value={formData.stage1.urgency}
 //                 onChange={(e) => handleInputChange(e, "stage1")}
 //               />
 //             </div>
@@ -519,23 +519,23 @@
 //               <h2>Stage 2</h2>
 //               <input
 //                 type="text"
-//                 name="field4"
+//                 name="jobTitle"
 //                 placeholder="Field 4"
-//                 value={formData.stage2.field4}
+//                 value={formData.stage2.jobTitle}
 //                 onChange={(e) => handleInputChange(e, "stage2")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field5"
+//                 name="jobDetails"
 //                 placeholder="Field 5"
-//                 value={formData.stage2.field5}
+//                 value={formData.stage2.jobDetails}
 //                 onChange={(e) => handleInputChange(e, "stage2")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field6"
+//                 name="jobLocation"
 //                 placeholder="Field 6"
-//                 value={formData.stage2.field6}
+//                 value={formData.stage2.jobLocation}
 //                 onChange={(e) => handleInputChange(e, "stage2")}
 //               />
 //             </div>
@@ -546,23 +546,23 @@
 //               <h2>Stage 3</h2>
 //               <input
 //                 type="text"
-//                 name="field7"
+//                 name="InterviewMode"
 //                 placeholder="Field 7"
-//                 value={formData.stage3.field7}
+//                 value={formData.stage3.InterviewMode}
 //                 onChange={(e) => handleInputChange(e, "stage3")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field8"
+//                 name="InterviewDuration"
 //                 placeholder="Field 8"
-//                 value={formData.stage3.field8}
+//                 value={formData.stage3.InterviewDuration}
 //                 onChange={(e) => handleInputChange(e, "stage3")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field9"
+//                 name="interviewLanguage"
 //                 placeholder="Field 9"
-//                 value={formData.stage3.field9}
+//                 value={formData.stage3.interviewLanguage}
 //                 onChange={(e) => handleInputChange(e, "stage3")}
 //               />
 //             </div>
@@ -600,9 +600,9 @@
 // function App() {
 //   const [stage, setStage] = useState(1);
 //   const [formData, setFormData] = useState({
-//     stage1: { field1: "", field2: "", field3: "" },
-//     stage2: { field4: "", field5: "", field6: "" },
-//     stage3: { field7: "", field8: "", field9: "" },
+//     stage1: { RequistionTitle: "", numberOfOpenings: "", urgency: "" },
+//     stage2: { jobTitle: "", jobDetails: "", jobLocation: "" },
+//     stage3: { InterviewMode: "", InterviewDuration: "", interviewLanguage: "" },
 //   });
 
 //   const handleStageClick = (newStage) => {
@@ -647,23 +647,23 @@
 //               <h2>Stage 1</h2>
 //               <input
 //                 type="text"
-//                 name="field1"
+//                 name="RequistionTitle"
 //                 placeholder="Field 1"
-//                 value={formData.stage1.field1}
+//                 value={formData.stage1.RequistionTitle}
 //                 onChange={(e) => handleInputChange(e, "stage1")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field2"
+//                 name="numberOfOpenings"
 //                 placeholder="Field 2"
-//                 value={formData.stage1.field2}
+//                 value={formData.stage1.numberOfOpenings}
 //                 onChange={(e) => handleInputChange(e, "stage1")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field3"
+//                 name="urgency"
 //                 placeholder="Field 3"
-//                 value={formData.stage1.field3}
+//                 value={formData.stage1.urgency}
 //                 onChange={(e) => handleInputChange(e, "stage1")}
 //               />
 //             </div>
@@ -674,23 +674,23 @@
 //               <h2>Stage 2</h2>
 //               <input
 //                 type="text"
-//                 name="field4"
+//                 name="jobTitle"
 //                 placeholder="Field 4"
-//                 value={formData.stage2.field4}
+//                 value={formData.stage2.jobTitle}
 //                 onChange={(e) => handleInputChange(e, "stage2")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field5"
+//                 name="jobDetails"
 //                 placeholder="Field 5"
-//                 value={formData.stage2.field5}
+//                 value={formData.stage2.jobDetails}
 //                 onChange={(e) => handleInputChange(e, "stage2")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field6"
+//                 name="jobLocation"
 //                 placeholder="Field 6"
-//                 value={formData.stage2.field6}
+//                 value={formData.stage2.jobLocation}
 //                 onChange={(e) => handleInputChange(e, "stage2")}
 //               />
 //             </div>
@@ -701,23 +701,23 @@
 //               <h2>Stage 3</h2>
 //               <input
 //                 type="text"
-//                 name="field7"
+//                 name="InterviewMode"
 //                 placeholder="Field 7"
-//                 value={formData.stage3.field7}
+//                 value={formData.stage3.InterviewMode}
 //                 onChange={(e) => handleInputChange(e, "stage3")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field8"
+//                 name="InterviewDuration"
 //                 placeholder="Field 8"
-//                 value={formData.stage3.field8}
+//                 value={formData.stage3.InterviewDuration}
 //                 onChange={(e) => handleInputChange(e, "stage3")}
 //               />
 //               <input
 //                 type="text"
-//                 name="field9"
+//                 name="interviewLanguage"
 //                 placeholder="Field 9"
-//                 value={formData.stage3.field9}
+//                 value={formData.stage3.interviewLanguage}
 //                 onChange={(e) => handleInputChange(e, "stage3")}
 //               />
 //             </div>
@@ -758,37 +758,37 @@ function App() {
   const [stage, setStage] = useState(1);
   const [formData, setFormData] = useState({
     stage1: {
-      field1: "",
-      field2: "",
-      field3: "",
+      RequistionTitle: "",
+      numberOfOpenings: "",
+      urgency: "",
       gender: "male",
     },
     stage2: {
-      field4: "",
-      field5: "",
-      field6: "",
+      jobTitle: "",
+      jobDetails: "",
+      jobLocation: "",
       interviewMode: "online",
     },
     stage3: {
-      field7: "",
-      field8: "short",
-      field9: "english",
+      InterviewMode: "",
+      InterviewDuration: "short",
+      interviewLanguage: "english",
     },
   });
 
   const [validationErrors, setValidationErrors] = useState({
     stage1: {
-      field1: "",
-      field2: "",
-      field3: "",
+      RequistionTitle: "",
+      numberOfOpenings: "",
+      urgency: "",
     },
     stage2: {
-      field4: "",
-      field5: "",
-      field6: "",
+      jobTitle: "",
+      jobDetails: "",
+      jobLocation: "",
     },
     stage3: {
-      field7: "",
+      InterviewMode: "",
     },
   });
 
@@ -841,23 +841,29 @@ function App() {
     // Stage 1 validation
     if (stageNumber === 1) {
       if (
-        stageData.field1.length < 2 ||
-        !/^[a-zA-Z]+$/.test(stageData.field1)
+        stageData.RequistionTitle.length < 2 ||
+        !/^[a-zA-Z]+$/.test(stageData.RequistionTitle)
       ) {
-        errors.field1 = "Field 1 must have at least 2 alphabetical characters.";
-        isValid = false;
-      }
-
-      if (stageData.field2.length < 2 || !/^[0-9]+$/.test(stageData.field2)) {
-        errors.field2 = "Field 2 must have at least 2 numeric characters.";
+        errors.RequistionTitle =
+          "Field 1 must have at least 2 alphabetical characters.";
         isValid = false;
       }
 
       if (
-        stageData.field3.length < 2 ||
-        !/^[a-zA-Z]+$/.test(stageData.field3)
+        stageData.numberOfOpenings.length < 2 ||
+        !/^[0-9]+$/.test(stageData.numberOfOpenings)
       ) {
-        errors.field3 = "Field 3 must have at least 2 alphabetical characters.";
+        errors.numberOfOpenings =
+          "Field 2 must have at least 2 numeric characters.";
+        isValid = false;
+      }
+
+      if (
+        stageData.urgency.length < 2 ||
+        !/^[a-zA-Z]+$/.test(stageData.urgency)
+      ) {
+        errors.urgency =
+          "Field 3 must have at least 2 alphabetical characters.";
         isValid = false;
       }
     }
@@ -865,31 +871,36 @@ function App() {
     // Stage 2 validation
     if (stageNumber === 2) {
       if (
-        stageData.field4.length < 2 ||
-        !/^[a-zA-Z]+$/.test(stageData.field4)
+        stageData.jobTitle.length < 2 ||
+        !/^[a-zA-Z]+$/.test(stageData.jobTitle)
       ) {
-        errors.field4 = "Field 4 must have at least 2 alphabetical characters.";
-        isValid = false;
-      }
-
-      if (stageData.field5.length < 2 || !/^[0-9]+$/.test(stageData.field5)) {
-        errors.field5 = "Field 5 must have at least 2 numeric characters.";
+        errors.jobTitle =
+          "Field 4 must have at least 2 alphabetical characters.";
         isValid = false;
       }
 
       if (
-        stageData.field6.length < 2 ||
-        !/^[a-zA-Z]+$/.test(stageData.field6)
+        stageData.jobDetails.length < 2 ||
+        !/^[0-9]+$/.test(stageData.jobDetails)
       ) {
-        errors.field6 = "Field 6 must have at least 2 alphabetical characters.";
+        errors.jobDetails = "Field 5 must have at least 2 numeric characters.";
+        isValid = false;
+      }
+
+      if (
+        stageData.jobLocation.length < 2 ||
+        !/^[a-zA-Z]+$/.test(stageData.jobLocation)
+      ) {
+        errors.jobLocation =
+          "Field 6 must have at least 2 alphabetical characters.";
         isValid = false;
       }
     }
 
     // Stage 3 validation
     if (stageNumber === 3) {
-      if (!stageData.field7) {
-        errors.field7 = "Please select an Interview Mode.";
+      if (!stageData.InterviewMode) {
+        errors.InterviewMode = "Please select an Interview Mode.";
         isValid = false;
       }
     }
@@ -923,33 +934,37 @@ function App() {
                 <label>Requistion Title</label>
                 <input
                   type="text"
-                  name="field1"
+                  name="RequistionTitle"
                   placeholder="Field 1 (Alphabet)"
-                  value={formData.stage1.field1}
+                  value={formData.stage1.RequistionTitle}
                   onChange={(e) => handleInputChange(e, "stage1")}
                 />
                 <br></br>
-                <span className="error">{validationErrors.stage1.field1}</span>
+                <span className="error">
+                  {validationErrors.stage1.RequistionTitle}
+                </span>
                 <label>number of openings </label>
                 <input
                   type="text"
-                  name="field2"
+                  name="numberOfOpenings"
                   placeholder="Field 2 (Number)"
-                  value={formData.stage1.field2}
+                  value={formData.stage1.numberOfOpenings}
                   onChange={(e) => handleInputChange(e, "stage1")}
                 />
                 <br></br>
-                <span className="error">{validationErrors.stage1.field2}</span>
+                <span className="error">
+                  {validationErrors.stage1.numberOfOpenings}
+                </span>
                 <label>urgency</label>
                 <input
                   type="text"
-                  name="field3"
+                  name="urgency"
                   placeholder="Field 3 (Alphabet)"
-                  value={formData.stage1.field3}
+                  value={formData.stage1.urgency}
                   onChange={(e) => handleInputChange(e, "stage1")}
                 />
                 <br></br>
-                <span className="error">{validationErrors.stage1.field3}</span>
+                <span className="error">{validationErrors.stage1.urgency}</span>
                 <label>gender</label>
                 <select
                   name="gender"
@@ -970,33 +985,39 @@ function App() {
                 <label>job Title</label>
                 <input
                   type="text"
-                  name="field4"
+                  name="jobTitle"
                   placeholder="Field 4 (Alphabet)"
-                  value={formData.stage2.field4}
+                  value={formData.stage2.jobTitle}
                   onChange={(e) => handleInputChange(e, "stage2")}
                 />
                 <br></br>
-                <span className="error">{validationErrors.stage2.field4}</span>
+                <span className="error">
+                  {validationErrors.stage2.jobTitle}
+                </span>
                 <label>job Details</label>
                 <input
                   type="text"
-                  name="field5"
+                  name="jobDetails"
                   placeholder="Field 5 (Number)"
-                  value={formData.stage2.field5}
+                  value={formData.stage2.jobDetails}
                   onChange={(e) => handleInputChange(e, "stage2")}
                 />
                 <br></br>
-                <span className="error">{validationErrors.stage2.field5}</span>
+                <span className="error">
+                  {validationErrors.stage2.jobDetails}
+                </span>
                 <label>job location</label>
                 <input
                   type="text"
-                  name="field6"
+                  name="jobLocation"
                   placeholder="Field 6 (Alphabet)"
-                  value={formData.stage2.field6}
+                  value={formData.stage2.jobLocation}
                   onChange={(e) => handleInputChange(e, "stage2")}
                 />
                 <br></br>
-                <span className="error">{validationErrors.stage2.field6}</span>
+                <span className="error">
+                  {validationErrors.stage2.jobLocation}
+                </span>
               </div>
             )}
 
@@ -1011,22 +1032,24 @@ function App() {
                 <option value="online">Online</option>
                 <option value="offline">Offline</option>
               </select> */}
-                <label>Interview Mode</label>
-                <select
-                  name="field7"
-                  value={formData.stage3.field7}
-                  onChange={(e) => handleInputChange(e, "stage3")}
-                >
-                  <option value="">Select Interview Mode</option>
-                  <option value="online">Online</option>
-                  <option value="offline">Offline</option>
-                </select>
+                  <label>Interview Mode</label>
+                  <select
+                    name="InterviewMode"
+                    value={formData.stage3.InterviewMode}
+                    onChange={(e) => handleInputChange(e, "stage3")}
+                  >
+                    <option value="">Select Interview Mode</option>
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                  </select>
                 <br></br>
-                <span className="error">{validationErrors.stage3.field7}</span>
+                <span className="error">
+                  {validationErrors.stage3.InterviewMode}
+                </span>
                 <label>Interview duration</label>
                 <select
-                  name="field8"
-                  value={formData.stage3.field8}
+                  name="InterviewDuration"
+                  value={formData.stage3.InterviewDuration}
                   onChange={(e) => handleInputChange(e, "stage3")}
                 >
                   <option value="short">Short</option>
@@ -1036,8 +1059,8 @@ function App() {
                 <br></br>
                 <label>interview Language</label>
                 <select
-                  name="field9"
-                  value={formData.stage3.field9}
+                  name="interviewLanguage"
+                  value={formData.stage3.interviewLanguage}
                   onChange={(e) => handleInputChange(e, "stage3")}
                 >
                   <option value="english">English</option>
